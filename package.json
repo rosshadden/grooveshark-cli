@@ -30,5 +30,5 @@
   },
   "bin": {
     "grooveshark": "lib/grooveshark"
-  },
+  }
 }
