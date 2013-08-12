@@ -29,6 +29,6 @@
     "url": "https://github.com/L1fescape/grooveshark-cli/issues"
   },
   "bin": {
-    "grooveshark": "./lib/grooveshark"
+    "grooveshark": "./lib/grooveshark.js"
   }
 }
