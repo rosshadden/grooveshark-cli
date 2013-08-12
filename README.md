@@ -66,7 +66,9 @@ grooveshark stop-server
 
 Starts the server component as a daemon if it's not running already.
 
-#### grooveshark stop-server
+#### grooveshark stop-server 
+
+**WARNING:** Currently doesn't work. Kill with `ps ax | grep node; kill -9 [process id]`. Super sorry, can't find a way to kill a [forever](https://github.com/nodejitsu/forever) daemon right now.
 
 Stops the server daemon if it's currently running.
 
@@ -109,6 +111,7 @@ Restores previous queue if there is one to restore.
 ## Todo
 
 - Find a better way to start and stop the socket.io server. Currently no way to detect if it is already running or not.
+- Make `stop-server` actually do what it's supposed to do.
 - Status can accept a format string that returns the status of the player in the format passed in.
 - Document Server API so it's easier for people to write clients to connect and use it.
 
