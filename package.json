@@ -1,6 +1,6 @@
 {
   "name": "grooveshark-cli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Command line tools for Grooveshark",
   "main": "lib/grooveshark.js",
   "dependencies": {
