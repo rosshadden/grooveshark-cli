@@ -27,5 +27,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/L1fescape/grooveshark-cli/issues"
-  }
+  },
+  "bin": {
+    "grooveshark": "lib/grooveshark"
+  },
 }
