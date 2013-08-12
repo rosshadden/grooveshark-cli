@@ -1,6 +1,6 @@
 {
   "name": "grooveshark-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Command line tools for Grooveshark",
   "main": "lib/grooveshark.js",
   "dependencies": {
@@ -29,6 +29,6 @@
     "url": "https://github.com/L1fescape/grooveshark-cli/issues"
   },
   "bin": {
-    "grooveshark": "lib/grooveshark"
+    "grooveshark": "./lib/grooveshark"
   }
 }
